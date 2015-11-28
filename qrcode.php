@@ -1,0 +1,1 @@
+<?phperror_reporting(E_ERROR);require_once 'phpqrcode.php';$url = urldecode($_GET["data"]);//生成二维码QRcode::png($url);?>
